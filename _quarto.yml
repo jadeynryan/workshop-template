@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
   render:
     - "*.qmd"
     - "!slides/[0-9]*.qmd"
@@ -25,17 +26,14 @@ website:
   page-footer:
     left: "&copy; 2024 Jadey Ryan"
     center: "Website built with ❤︎️ and [Quarto](https://quarto.org/)."
-    right: "Inspired by [R/Medicine 2023 workshop](https://github.com/shannonpileggi/rmedicine-data-cleaning-2023), inspired by [R/Medicine 2022 Workshop](https://github.com/ddsjoberg/clinical-reporting-gtsummary-rmed), inspired by [@minebocek](https://twitter.com/minebocek)."
-    background: "#07483f"
+    right: "Inspired by [Parameterized Reports with Quarto Workshop](https://jadeyryan.quarto.pub/rladies-abuja-quarto-params), inspired by [R/Medicine 2023 workshop](https://github.com/shannonpileggi/rmedicine-data-cleaning-2023), inspired by [R/Medicine 2022 Workshop](https://github.com/ddsjoberg/clinical-reporting-gtsummary-rmed), inspired by [@minebocek](https://twitter.com/minebocek)."
 
   sidebar:
-    background: "#07483f"
     logo: "images/jr-logo-quarto.webp"
     logo-alt: "Two hex stickers side by side with a heart joining them in the middle. Left sticker is Jadey's cat logo. Right sticker is the Quarto logo."
     pinned: true
     align: center
     style: docked
-    type: dark
     tools:
       - icon: github
         href: https://github.com/jadeynryan/parameterized-quarto-workshop
@@ -59,7 +57,6 @@ format:
     code-link: true
     code-copy: true
     code-overflow: scroll
-    mainfont: Atkinson Hyperlegible
     highlight-style: a11y
 
 # lightbox extension

@@ -1,32 +1,32 @@
-// Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Mono&family=Domine:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
-
 /*-- scss:defaults --*/
 
-// colors
-$teal-light1: #f6fafa;
-$teal-light2: #A2F6EC;
-$teal:        #0b7366;
-$teal-dark1:  #07483f;
-$teal-dark2:  #042521;
-$orange:      #a98069;
-$orange-light:#e9dfd9;
-$orange-dark: #6a2d0a;
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Mono&family=Domine:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
+
+$theme-header-font: Domine, serif;
+$theme-body-font: Atkinson Hyperlegible, Nunito, sans-serif;
+$theme-code-font: Fira Mono, monospace;
+
+// Colors
+$theme-primary:       #0b7366;
+$theme-secondary:     #6a2d0a;
+$theme-light:         #f6fafa;
 
 // Background of the presentation
-$backgroundColor: $teal-light1;
+$backgroundColor: $theme-light;
 
 // Primary/body text
-$mainFont: 'Atkinson Hyperlegible', 'Nunito', sans-serif;
+$mainFont: $theme-body-font;
 $mainFontSize: 35px;
 
 // Vertical spacing between blocks of text
 $blockMargin: 0.3em;
 
 // Headings
+$headingFont: $theme-header-font;
+$headingColor: $theme-primary;
+
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'Domine', serif;
-$headingColor: $teal;
 $headingLineHeight: 1em;
 $headingLetterSpacing: 2px;
 $headingTextTransform: none;
@@ -38,25 +38,21 @@ $heading2Size: 2.2em;
 $heading3Size: 1.5em;
 $heading4Size: 1.0em;
 
-$codeFont: 'Fira Mono', monospace;
+// Code
+$codeFont: $theme-code-font;
 $code-block-font-size: 0.8em;
 
 // Links and actions
-$linkColor: $orange-dark;
+$linkColor: $theme-secondary;
 $linkColorHover: darken( $linkColor, 20% );
 
-section.has-dark-background a, section.has-dark-background a:hover {
-    color: #bfe4fe !important;
-}
-
 // Text selection
-$selectionBackgroundColor: $teal;
-$selectionColor: #fff;
+$selectionBackgroundColor: $theme-primary;
 
 // Contrast
-$min-contrast-ratio:   7;
+$min-contrast-ratio: 7;
 
-// Start using css here //
+/*-- scss:rules --*/
 
 // Font classes
 
@@ -90,20 +86,17 @@ $min-contrast-ratio:   7;
 }
 
 // Table
-
 .reveal table {
   margin-left: 0!important;
 }
 
 // Footer
-
 .reveal .footer {
   font-size: 0.8em;
-  color: $orange-dark;
+  color: $theme-secondary;
 }
 
 // Containers
-
 .reveal .slide .v-center-container {
   display: flex;
   justify-content: center;
@@ -113,7 +106,6 @@ $min-contrast-ratio:   7;
 }
 
 // Alignment
-
 .center {
   display: block;
   margin-left: auto !important;
@@ -121,38 +113,34 @@ $min-contrast-ratio:   7;
 }
 
 // Background color sections
-
-.section {
+.background-primary {
   &:is(.slide-background) {
-  background: $orange-dark;
+  background: $theme-primary;
   }
 }
 
-.demo {
+.background-secondary {
   &:is(.slide-background) {
-  background: $teal-dark2;
+  background: $theme-secondary;
   }
 }
 
-.exercise {
-  &:is(.slide-background) {
-  background: $teal-dark1;
-  }
+section.has-dark-background a, section.has-dark-background a:hover {
+    color: $theme-light !important;
 }
 
 // Fontawesome
-
 .fab, .fa-brands {
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
-  color: $teal;
+  color: $theme-primary;
   line-height: 1.5;
 }
 
 .fas, .fa-solid {
   font-family: 'Font Awesome 6 Free';
   font-weight: 900;
-  color: $teal;
+  color: $theme-primary;
   line-height: 1.2;
 }
 

@@ -2,14 +2,6 @@
 
 ------------------------------------------------------------------------
 
-## Workshops
-
-### Upcoming
-
-None at this time.
-
-### Past
-
 #### R-Ladies Abuja
 
 📆 February 21, 2024 // 4:30 pm - 6:30 pm WAT  
@@ -18,15 +10,6 @@ None at this time.
 🎥 [Recording](https://youtu.be/kQn82pa04jQ?si=Ksvdp0Hdgs1crOD0)  
 🏡 [Workshop website](https://jadeyryan.quarto.pub/rladies-abuja-quarto-params)  
 🔖 [Source tag](https://github.com/jadeynryan/parameterized-quarto-workshop/releases/tag/rladies-abuja)
-
-#### R-Ladies Washington DC
-
-📆 January 18, 2024 // 6:30 pm - 8:30 pm EDT  
-🏨 Virtual  
-🆓 **FREE** with [registration](https://www.meetup.com/rladies-dc/events/297344107/)  
-🏡 [Workshop website](https://jadeyryan.quarto.pub/rladies-dc-quarto-params/)  
-🎥 [Recording](https://youtu.be/MKjz_xkMgxY)  
-🔖 [Source tag](https://github.com/jadeynryan/parameterized-quarto-workshop/releases/tag/rladies-dc-workshop)
 
 ## Abstract
 
@@ -61,6 +44,8 @@ Learn more on her [personal website](https://jadeyryan.com) where you can also f
 ## Acknowledgements
 
 This workshop structure has been adapted from:
+
+- [Parameterized Reports with Quarto](https://github.com/jadeynryan/parameterized-quarto-workshop) taught by [Jadey Ryan](https://jadeyryan.com/)
 
 - [R/Medicine Data Cleaning 2023 Workshop](https://shannonpileggi.github.io/rmedicine-data-cleaning-2023/) taught by [Crystal Lewis](https://cghlewis.com/), [Shannon Pileggi](https://www.pipinghotdata.com/), and [Peter Higgins](https://bookdown.org/pdr_higgins/rmrwr/)
 
