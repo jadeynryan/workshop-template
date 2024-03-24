@@ -1,4 +1,8 @@
+If you use this template, please consider [⭐️ starring ⭐ this repository](https://github.com/jadeynryan/workshop-template).
+
 ## How to use this workshop template
+
+You must be using [Quarto version 1.3 or later](https://quarto.org/docs/get-started/).
 
 1.  Create your new repository from this template repository by following this
     [GitHub Docs
@@ -11,7 +15,7 @@
     edit in the following steps, the preview will update in your browser at
     `http://localhost:3434/`.
 
-4.  Edit `_quarto.yml` to include your workshop name, logos, and URLs.
+4.  Edit `_quarto.yml` to include your workshop name, logos, and URLs. The specific YAML fields to edit have comments `# Edit` above them.
 
 5.  Edit website content in root directory:
 

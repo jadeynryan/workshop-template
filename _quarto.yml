@@ -15,30 +15,41 @@ execute:
 
 website:
   page-navigation: true
+  # Edit
   title: "Parameterized Reporting with Quarto: R-Ladies Abuja"
+  # Edit
   description: "Homepage for the 2024 R-Ladies Abuja Parameterized Reports with Quarto Workshop"
+  # Edit
   site-url: "https://jadeyryan.quarto.pub/rladies-abuja-quarto-params/"
+  # Edit
   favicon: "images/jr-logo-circle.webp"
 
+  # Edit
   repo-url: https://github.com/jadeynryan/parameterized-quarto-workshop
   repo-actions: [source, edit, issue]
 
   page-footer:
+    # Edit
     left: "&copy; 2024 Jadey Ryan"
     center: "Website built with ❤︎️ and [Quarto](https://quarto.org/)."
-    right: "Inspired by [Parameterized Reports with Quarto Workshop](https://jadeyryan.quarto.pub/rladies-abuja-quarto-params), inspired by [R/Medicine 2023 workshop](https://github.com/shannonpileggi/rmedicine-data-cleaning-2023), inspired by [R/Medicine 2022 Workshop](https://github.com/ddsjoberg/clinical-reporting-gtsummary-rmed), inspired by [@minebocek](https://twitter.com/minebocek)."
+    # Please don't remove this acknowledgement.
+    right: "[Workshop template](https://github.com/jadeynryan/workshop-template) from [Jadey Ryan](https://jadeyryan.com)."
 
   sidebar:
+    # Edit
     logo: "images/jr-logo-quarto.webp"
+    # Edit
     logo-alt: "Two hex stickers side by side with a heart joining them in the middle. Left sticker is Jadey's cat logo. Right sticker is the Quarto logo."
     pinned: true
     align: center
     style: docked
     tools:
       - icon: github
+        # Edit
         href: https://github.com/jadeynryan/parameterized-quarto-workshop
         text: GitHub
     contents:
+    # Edit as needed
      - href: index.qmd
        text: Home
      - href: prework.qmd
@@ -50,6 +61,7 @@ website:
 
 format:
   html:
+    # Edit if you want to use another Bootswatch theme
     theme: [flatly, theme.scss]
     toc: true
     smooth-scroll: true

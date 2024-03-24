@@ -25,15 +25,7 @@ df-print: kable
 
 <br>
 
-[Parameterized Reports with Quarto](https://github.com/jadeynryan/parameterized-quarto-workshop) taught by [Jadey Ryan](https://jadeyryan.com/)
-
-<br>
-
-[R/Medicine Data Cleaning 2023 Workshop](https://shannonpileggi.github.io/rmedicine-data-cleaning-2023/) taught by [Crystal Lewis](https://cghlewis.com/), [Shannon Pileggi](https://www.pipinghotdata.com/), and [Peter Higgins](https://bookdown.org/pdr_higgins/rmrwr/)
-
-<br>
-
-[ASA Traveling Courses on Quarto](https://quarto.org/docs/blog/posts/2023-12-05-asa-traveling-courses/) taught by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [Andrew Bray](https://andrewpbray.github.io/)
+Website and slides were created using the [workshop template](https://github.com/jadeynryan/workshop-template) from [Jadey Ryan](https://jadeyryan.com).
 
 ## Disclaimer and license
 

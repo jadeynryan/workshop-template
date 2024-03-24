@@ -1,5 +1,7 @@
 # Template for creating a workshop website and slides with Quarto
 
+If you use this template, please consider [⭐️ starring ⭐ this repository](https://github.com/jadeynryan/workshop-template).
+
 For instructions on using this template, see [`how-to-use-template.md`](https://github.com/jadeynryan/workshop-template/blob/main/how-to-use-template.md).
 
 See below for a placeholder README for the workshop repository.
@@ -51,13 +53,7 @@ Learn more on her [personal website](https://jadeyryan.com) where you can also f
 
 ## Acknowledgements
 
-This workshop structure has been adapted from:
-
-- [Parameterized Reports with Quarto](https://github.com/jadeynryan/parameterized-quarto-workshop) taught by [Jadey Ryan](https://jadeyryan.com/)
-
-- [R/Medicine Data Cleaning 2023 Workshop](https://shannonpileggi.github.io/rmedicine-data-cleaning-2023/) taught by [Crystal Lewis](https://cghlewis.com/), [Shannon Pileggi](https://www.pipinghotdata.com/), and [Peter Higgins](https://bookdown.org/pdr_higgins/rmrwr/)
-
-- [ASA Traveling Courses on Quarto](https://quarto.org/docs/blog/posts/2023-12-05-asa-traveling-courses/) taught by [Mine Çetinkaya-Rundel](https://mine-cr.com/) and [Andrew Bray](https://andrewpbray.github.io/)
+Website and slides were created using the [workshop template](https://github.com/jadeynryan/workshop-template) from [Jadey Ryan](https://jadeyryan.com).
 
 ------------------------------------------------------------------------
 
