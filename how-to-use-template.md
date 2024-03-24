@@ -72,6 +72,8 @@
             `{.background-secondary}` with a level 1 heading (`#`)
 
         -   Custom footer for a specific slide
+        
+        -   [`{countdown}`](https://github.com/gadenbuie/countdown) timer for exercises
 
     -   Edit styling.
 
