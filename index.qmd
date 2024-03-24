@@ -4,6 +4,12 @@ title: "Parameterized Reporting with Quarto: R-Ladies Abuja"
 
 ------------------------------------------------------------------------
 
+::: callout-important
+# Template for creating a workshop website and slides with Quarto
+
+For instructions on using this template, see [`how-to-use-template.md`](https://github.com/jadeynryan/workshop-template/blob/main/how-to-use-template.md).
+:::
+
 <!-- ::: callout-important -->
 <!-- This workshop is currently being updated. Materials, links, exercises subject to change. -->
 <!-- ::: -->

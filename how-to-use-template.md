@@ -4,13 +4,16 @@
     [GitHub Docs
     page](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
-2.  Preview the website by running `quarto preview` in the `Terminal`. As you
+2.  Edit `README.md` to remove the template instructions and include your
+    specific workshop details.
+
+3.  Preview the website by running `quarto preview` in the `Terminal`. As you
     edit in the following steps, the preview will update in your browser at
     `http://localhost:3434/`.
 
-3.  Edit `_quarto.yml` to include your workshop name, logos, and URLs.
+4.  Edit `_quarto.yml` to include your workshop name, logos, and URLs.
 
-4.  Edit website content in root directory:
+5.  Edit website content in root directory:
 
     -   `index.qmd` is the home page.
 
@@ -19,7 +22,7 @@
     -   `materials.qmd` includes a link to the full screen slides, an iframe
         with the slides, video recording of the workshop, and exercises.
 
-5.  Edit website styling.
+6.  Edit website styling.
 
     -   To remove custom styling and choose a basic [bootswatch
         theme](https://quarto.org/docs/output-formats/html-themes.html#overview),
@@ -39,7 +42,7 @@
     -   [Quarto Docs on HTML
         theming](https://quarto.org/docs/output-formats/html-themes.html#basic-options)
 
-6.  Edit slides content and styling within the `slides` subfolder.
+7.  Edit slides content and styling within the `slides` subfolder.
 
     -   Edit content in `index.qmd`. I left my intro slides to demonstrate
         different Reveal JS and Quarto features including:
@@ -83,7 +86,7 @@
             code](https://fonts.google.com/selection/embed) include the fonts
             you want.
 
-7.  When ready to publish, run `quarto render` in the `Terminal`. Commit and
+8.  When ready to publish, run `quarto render` in the `Terminal`. Commit and
     push your changes to the repo, which will trigger a deployment of your site.
 
     -   For the first time you publish, you will need to configure your GitHub

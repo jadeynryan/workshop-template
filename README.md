@@ -1,3 +1,11 @@
+# Template for creating a workshop website and slides with Quarto
+
+For instructions on using this template, see [`how-to-use-template.md`](https://github.com/jadeynryan/workshop-template/blob/main/how-to-use-template.md).
+
+See below for a placeholder README for the workshop repository.
+
+------------------------------------------------------------------------
+
 # Parameterized Reporting with Quarto
 
 ------------------------------------------------------------------------
